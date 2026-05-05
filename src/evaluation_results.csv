@@ -1,0 +1,209 @@
+scenario_id,intent,tone,strategy,model,fact_recall_score,tone_alignment_score,professional_quality_score,overall_score,frs_found,frs_total,tas_raw,tas_reasoning,pqs_subject,pqs_structure,pqs_conciseness,generation_time_s,generated_email,reference_email,error
+1,Follow up after a job interview,"Professional, enthusiastic, warm",Strategy_A_Advanced (Role-Play+Few-Shot+CoT),qwen3:4b,0.5,0.75,0.8375,0.6958,2,4,4,Tone well-matched,0.85,0.75,1.0,2.1,"Subject: Thank You — Senior Data Engineer Interview (May 2nd)
+
+Dear Priya,
+
+Thank you for the wonderful conversation on May 2nd regarding the Senior Data Engineer role at Nexus Analytics. I truly enjo...","Subject: Thank You — Senior Data Engineer Interview (May 2nd)
+
+Dear Priya,
+
+Thank you so much for taking the time to speak with me on May 2nd. I genuinely enjoyed our conversation about Nexus Analytic...",
+1,Follow up after a job interview,"Professional, enthusiastic, warm",Strategy_B_Baseline (Simple instruction),qwen3:4b,0.25,0.5,0.8,0.5167,1,4,3,Tone partially matched,1.0,0.75,0.7,1.5,"Subject: Interview Follow Up
+
+Hi Priya,
+
+I am writing to follow up on my interview. We met on May 2nd for the Senior Data Engineer position. Thank you for your time.
+
+I am interested in the role and w...","Subject: Thank You — Senior Data Engineer Interview (May 2nd)
+
+Dear Priya,
+
+Thank you so much for taking the time to speak with me on May 2nd. I genuinely enjoyed our conversation about Nexus Analytic...",
+2,Request a project deadline extension,"Formal, accountable, solution-oriented",Strategy_A_Advanced (Role-Play+Few-Shot+CoT),qwen3:4b,0.8,1.0,1.0,0.9333,4,5,5,Tone well-matched,1.0,1.0,1.0,2.4,"Subject: Extension Request — CRM Migration Deadline (July 15 → July 30)
+
+Dear David,
+
+I am writing to formally request a two-week extension on the CRM Migration project for Apex Solutions, moving the ...","Subject: Extension Request — CRM Migration Deadline (July 15 → July 30)
+
+Dear David,
+
+I am writing to formally request a two-week extension on the CRM Migration project for Apex Solutions, shifting th...",
+2,Request a project deadline extension,"Formal, accountable, solution-oriented",Strategy_B_Baseline (Simple instruction),qwen3:4b,0.4,0.5,0.8875,0.5958,2,5,3,Tone partially matched,0.85,1.0,0.7,1.7,"Subject: Deadline Extension for Project
+
+Dear David,
+
+I need to request an extension for the CRM Migration project. The current deadline is July 15th and I would like to extend it to July 30th. We hav...","Subject: Extension Request — CRM Migration Deadline (July 15 → July 30)
+
+Dear David,
+
+I am writing to formally request a two-week extension on the CRM Migration project for Apex Solutions, shifting th...",
+3,Apologise to a client for a service outage,"Empathetic, accountable, professional",Strategy_A_Advanced (Role-Play+Few-Shot+CoT),qwen3:4b,1.0,1.0,0.8375,0.9458,6,6,5,Tone well-matched,0.85,0.75,1.0,2.7,"Subject: Our Sincere Apology — April 28th Service Outage
+
+Dear Meridian Retail Group Team,
+
+I want to personally apologise for the four-hour outage on April 28th that disrupted your Order Management P...","Subject: Sincere Apology — April 28th Service Outage | Meridian Retail Group
+
+Dear Meridian Retail Group Team,
+
+I want to reach out personally to apologise for the four-hour outage to your Order Manag...",
+3,Apologise to a client for a service outage,"Empathetic, accountable, professional",Strategy_B_Baseline (Simple instruction),qwen3:4b,0.5,0.5,0.6375,0.5458,3,6,3,Tone partially matched,0.85,0.5,0.7,1.9,"Subject: Apology for Service Outage
+
+Hello,
+
+We want to apologise for the outage that occurred on April 28. The Order Management Platform was down for 4 hours. This was caused by a database problem.
+
+...","Subject: Sincere Apology — April 28th Service Outage | Meridian Retail Group
+
+Dear Meridian Retail Group Team,
+
+I want to reach out personally to apologise for the four-hour outage to your Order Manag...",
+4,Cold outreach to a potential business partner,"Confident, concise, collaborative",Strategy_A_Advanced (Role-Play+Few-Shot+CoT),qwen3:4b,0.4,0.75,0.9625,0.7042,2,5,4,Tone well-matched,0.85,1.0,1.0,3.0,"Subject: EcoLoop x GreenTech — Exploring a Joint Pilot Opportunity
+
+Hi James,
+
+Your keynote at SustainX Summit 2024 on scaling circular economy solutions for SMEs really resonated with me — it maps di...","Subject: EcoLoop x GreenTech — Joint Pilot Opportunity
+
+Hi James,
+
+Your keynote at SustainX Summit 2024 on scaling circular economy solutions for SMEs stuck with me — it maps almost exactly to the pro...",
+4,Cold outreach to a potential business partner,"Confident, concise, collaborative",Strategy_B_Baseline (Simple instruction),qwen3:4b,0.6,0.25,1.0,0.6167,3,5,2,Tone partially matched,1.0,1.0,1.0,2.1,"Subject: Partnership Proposal
+
+Dear James Harlow,
+
+I am reaching out from EcoLoop. We are a circular economy platform. I noticed you spoke at SustainX Summit 2024.
+
+I would like to discuss a potential...","Subject: EcoLoop x GreenTech — Joint Pilot Opportunity
+
+Hi James,
+
+Your keynote at SustainX Summit 2024 on scaling circular economy solutions for SMEs stuck with me — it maps almost exactly to the pro...",
+5,Send a meeting recap and action items,"Organised, clear, friendly",Strategy_A_Advanced (Role-Play+Few-Shot+CoT),qwen3:4b,0.8333,0.75,1.0,0.8611,5,6,4,Tone well-matched,1.0,1.0,1.0,3.3,"Subject: Recap & Actions — Q2 Marketing Strategy | May 1st
+
+Hi Lisa, Tom, and Anika,
+
+Thanks for an energetic Q2 Marketing Strategy session today. Here's a quick recap:
+
+Decisions Made:
+- Paid social ...","Subject: Recap & Actions — Q2 Marketing Strategy | May 1st
+
+Hi Lisa, Tom, and Anika,
+
+Thanks for a productive session this morning. Here's a quick recap to keep us aligned:
+
+Key Decisions:
+- Paid soci...",
+5,Send a meeting recap and action items,"Organised, clear, friendly",Strategy_B_Baseline (Simple instruction),qwen3:4b,0.6667,0.5,0.8375,0.6681,4,6,3,Tone partially matched,0.85,0.75,1.0,2.3,"Subject: Meeting Notes
+
+Hi team,
+
+Here are the notes from our May 1st marketing meeting:
+- Launch paid social campaign by May 20th
+- Lisa will do the influencer list by May 8th
+- Tom will share the bu...","Subject: Recap & Actions — Q2 Marketing Strategy | May 1st
+
+Hi Lisa, Tom, and Anika,
+
+Thanks for a productive session this morning. Here's a quick recap to keep us aligned:
+
+Key Decisions:
+- Paid soci...",
+6,Negotiate a software vendor contract renewal,"Assertive, respectful, business-focused",Strategy_A_Advanced (Role-Play+Few-Shot+CoT),qwen3:4b,0.1667,0.75,0.9625,0.6264,1,6,4,Tone well-matched,0.85,1.0,1.0,3.6,"Subject: CloudScale Renewal — Pricing Discussion
+
+Dear CloudScale Team,
+
+As our annual renewal approaches, I wanted to open a direct conversation about pricing. We have been a loyal CloudScale custome...","Subject: Contract Renewal Discussion — CloudScale Inc. Partnership
+
+Dear CloudScale Team,
+
+As we approach our annual renewal, I wanted to open a direct conversation about pricing before we move forwar...",
+6,Negotiate a software vendor contract renewal,"Assertive, respectful, business-focused",Strategy_B_Baseline (Simple instruction),qwen3:4b,0.0,0.25,0.5625,0.2708,0,6,2,Tone partially matched,0.85,0.5,0.4,2.5,"Subject: Contract Renewal
+
+Dear CloudScale,
+
+Our contract is up for renewal. We currently pay 8,000 per year but we have found another provider offering 5,000. We would like to renew at 8,000 or get m...","Subject: Contract Renewal Discussion — CloudScale Inc. Partnership
+
+Dear CloudScale Team,
+
+As we approach our annual renewal, I wanted to open a direct conversation about pricing before we move forwar...",
+7,Welcome a new team member,"Warm, enthusiastic, welcoming",Strategy_A_Advanced (Role-Play+Few-Shot+CoT),qwen3:4b,0.6667,1.0,0.875,0.8472,4,6,5,Tone well-matched,1.0,0.75,1.0,3.9,"Subject: Welcome to the Team, Marcus! 🎉
+
+Hi Marcus,
+
+We are absolutely thrilled to have you joining the Digital Product team as our new Product Designer on May 6th!
+
+Your first day will include an off...","Subject: Welcome to the Team, Marcus! 🎉
+
+Hi Marcus,
+
+We're so excited to have you joining the Digital Product team as our new Product Designer on May 6th!
+
+Here's what your first day looks like: we'll...",
+7,Welcome a new team member,"Warm, enthusiastic, welcoming",Strategy_B_Baseline (Simple instruction),qwen3:4b,0.1667,0.5,0.475,0.3806,1,6,3,Tone partially matched,1.0,0.25,0.4,2.7,"Subject: Welcome Marcus
+
+Hi Marcus,
+
+Welcome to the company. You start on May 6th. There will be an office tour and lunch at 12:30. Camille will be your buddy.
+
+See you then....","Subject: Welcome to the Team, Marcus! 🎉
+
+Hi Marcus,
+
+We're so excited to have you joining the Digital Product team as our new Product Designer on May 6th!
+
+Here's what your first day looks like: we'll...",
+8,Escalate an unresolved customer support issue,"Urgent, professional, factual",Strategy_A_Advanced (Role-Play+Few-Shot+CoT),qwen3:4b,0.5,1.0,0.875,0.7917,3,6,5,Tone well-matched,1.0,0.75,1.0,4.2,"Subject: Urgent Escalation — Ticket #TKT-88423 | 14 Days Unresolved
+
+Dear Ryan,
+
+I am escalating ticket #TKT-88423, which has been open for 14 days without resolution and is causing direct harm to our...","Subject: Urgent Escalation — Ticket #TKT-88423 | 14 Days Unresolved
+
+Dear Ryan,
+
+I am escalating ticket #TKT-88423 as it has now been open for 14 days without resolution and is directly impacting our ...",
+8,Escalate an unresolved customer support issue,"Urgent, professional, factual",Strategy_B_Baseline (Simple instruction),qwen3:4b,0.5,0.5,0.6875,0.5625,3,6,3,Tone partially matched,0.85,0.75,0.4,2.9,"Subject: Support Ticket Escalation
+
+Dear Ryan,
+
+Ticket #TKT-88423 has been open for 14 days. The customer is Sandra Bell. She did not receive her March invoice and cannot file her expenses.
+
+Please re...","Subject: Urgent Escalation — Ticket #TKT-88423 | 14 Days Unresolved
+
+Dear Ryan,
+
+I am escalating ticket #TKT-88423 as it has now been open for 14 days without resolution and is directly impacting our ...",
+9,Invite a speaker to a company event,"Flattering, professional, enthusiastic",Strategy_A_Advanced (Role-Play+Few-Shot+CoT),qwen3:4b,0.8333,1.0,0.7125,0.8486,5,6,5,Tone well-matched,0.85,0.5,1.0,4.5,"Subject: Speaker Invitation — InnovateTech Annual Conference 2025
+
+Dear Dr. Iyer,
+
+It is a privilege to invite you to speak at the InnovateTech Annual Conference 2025, taking place on September 12th i...","Subject: Speaker Invitation — InnovateTech 2025 | Dr. Meera Iyer
+
+Dear Dr. Iyer,
+
+I am reaching out on behalf of InnovateTech to extend a personal invitation for you to speak at our Annual Conference ...",
+9,Invite a speaker to a company event,"Flattering, professional, enthusiastic",Strategy_B_Baseline (Simple instruction),qwen3:4b,0.3333,0.5,0.8875,0.5736,2,6,3,Tone partially matched,0.85,1.0,0.7,3.1,"Subject: Speaking Invitation
+
+Dear Dr. Meera Iyer,
+
+We would like you to speak at our InnovateTech Conference on September 12th in Bangalore. The topic would be about AI ethics. There will be 500 peop...","Subject: Speaker Invitation — InnovateTech 2025 | Dr. Meera Iyer
+
+Dear Dr. Iyer,
+
+I am reaching out on behalf of InnovateTech to extend a personal invitation for you to speak at our Annual Conference ...",
+10,Decline a partnership proposal politely,"Polite, gracious, diplomatic",Strategy_A_Advanced (Role-Play+Few-Shot+CoT),qwen3:4b,0.6,0.75,0.875,0.7417,3,5,4,Tone well-matched,1.0,0.75,1.0,4.8,"Subject: Re: Co-Branded Content Series Proposal
+
+Dear Sofia,
+
+Thank you for the thoughtful co-branded content series proposal from Bright Media Agency — the effort and creativity that went into it are...","Subject: Re: Co-Branded Content Series Proposal
+
+Dear Sofia,
+
+Thank you for sharing the co-branded content series proposal — it's clear that a great deal of thought went into it, and I appreciate you ...",
+10,Decline a partnership proposal politely,"Polite, gracious, diplomatic",Strategy_B_Baseline (Simple instruction),qwen3:4b,0.2,0.5,0.8,0.5,1,5,3,Tone partially matched,1.0,0.75,0.7,3.3,"Subject: Partnership Proposal Response
+
+Dear Sofia,
+
+Thank you for your proposal. After review, we have decided not to move forward with the co-branded content series. We feel it is not the right fit ...","Subject: Re: Co-Branded Content Series Proposal
+
+Dear Sofia,
+
+Thank you for sharing the co-branded content series proposal — it's clear that a great deal of thought went into it, and I appreciate you ...",
